@@ -1,0 +1,1 @@
+"""CashMind Generate Module Root"""

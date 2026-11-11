@@ -1,0 +1,1 @@
+"""CashMind Application Root Package"""
