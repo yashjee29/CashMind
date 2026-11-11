@@ -31,8 +31,8 @@ app = FastAPI(
     title="CashMind AI Service",
     description="CashMind AI Reasoning and Content Generation Microservice",
     version="1.0.0",
-    docs_url=f"{settings.API_PREFIX}/docs" if settings.DEBUG else None,
-    redoc_url=None,
+    docs_url="/docs",
+    redoc_url="/redoc",
     lifespan=lifespan,
 )
 
